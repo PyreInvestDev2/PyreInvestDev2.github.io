@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500;600;700;800&family=Pontano+Sans&display=swap');
+
+:root {
+    --pink: #FD4582;
+    --dark-grey: #3F4582;
+    --blue: #262D6F;
+  }
+
+* {
+    font-family: 'Pontano Sans';
+    font-weight: 400;
+}
+
+
+.main {
+    max-width: 500px;
+    width: 90%;
+}
+
+.white-container {
+    background-color: white;
+}
+
+.grey-container {
+    background-color: var(--dark-grey);
+}
+
+.pink-font {
+    color: var(--pink);
+}
+
+.blue-font {
+    color: var(--blue);
+}
+
+.white-font {
+    color: white;
+}
+
+.heading-font {
+    font-family: 'Karla';
+    font-weight: 800;
+  }
+
+.subheading-font {
+    font-family: 'Karla';
+    font-weight: 600;
+  }
+
+.about {
+    max-width: 400px;
+    width: 90%;
+}
+
+.platform-image {
+    max-width: 240px;
+}
+
+
+.btn {
+    padding: 0.5rem 2rem;
+    border: none;
+    font-size: 0.9rem;
+    border-radius: 2.5rem;
+    margin: auto;
+    background: linear-gradient(to right, pink, #FD4582);
+    color: whitesmoke;
+    box-shadow: 1px 1px 30px -12px var(--pink);
+    transition: all 300ms;
+  }
+  
+ .email {
+    width: 40%;
+    font-size: 0.9rem;
+    padding: 0.5rem 2rem;
+    border: none;    border-radius: 2.5rem;
+    margin: auto;
+    background: whitesmoke;
+  }
+  
+  .btn:hover {
+    box-shadow: 1px 1px 30px -6px pink;
+  }
